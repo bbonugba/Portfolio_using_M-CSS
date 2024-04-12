@@ -6,7 +6,47 @@
     <title>Portfoli_Using_M-CSS</title>
     <link rel="stylesheet" href="materialize.css">
     
-    <style></style>
+    
+    <style>
+        /* CSS Reset */
+        * {
+        font-family: 'Courier New', Courier, monospace;
+        }
+        /*  */
+        .container a {
+            font-weight: bold;
+        }
+        .container h5 {
+            font-weight: bold;
+        }
+        .container a:hover{
+            text-decoration: overline;
+        }
+        .intro {
+            position: relative;
+        }
+        .intro_text {
+            position: absolute;
+            top: 500px;
+            left: 600px;
+        }
+        .intro_text h3:hover {
+            background-color: white;
+            color: orangered;
+        }
+        .intro_text h5:hover {
+            background-color: white;
+            color: indigo;
+        }
+        /* .social_links {
+            margin-top: 20px;
+        } */
+        .social_links a img {
+            margin: 15px;
+        
+        }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -37,9 +77,9 @@
         <div class="intro">
             <img src="img/banner.jpg"  width="100%" alt="">
         </div>
-        <!-- <div class="intro_text white-text"> -->
-            <h4>Hello! I'm BB</h4>
-            <h6>I'm learning WebDev using M-CSS</h6>
+        <div class="intro_text white-text">
+            <h3>Hello! I'm BB</h3>
+            <h5>I'm learning WebDev using M-CSS</h5>
         </div>
         <!-- Project Section -->
         <div class="container">
@@ -111,7 +151,7 @@
         </div>
         <!-- Social Media Section -->
         <div class="social_media black">
-            <h4 class="white-text" style="padding: 80px; text-align: center; ">My Social Links</h4>
+            <h4 class="white-text" style="padding: 30px; text-align: center;">My Social Links</h4>
             <div class="social_links center">
                 <a href="https://wa.me/+2348186326959" target="_blank">
                     <img src="img/1298775_whatsapp_chat_sms_social media_talk_icon.png" width="4%"  alt="">
